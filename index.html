@@ -25,9 +25,9 @@
         <a href="./index.html" class="logo">Web<span class="accent">Studio</span></a>
 
         <ul class="site-nav list">
-          <li class="item"><a href="" class="nav-link current">Студия</a></li>
+          <li class="item item-strip"><a href="" class="nav-link current">Студия</a></li>
           <li class="item"><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
-          <li class="item"><a href="" class="nav-link">Контакты</a></li>
+          <li class="item"><a href="./contact.html" class="nav-link">Контакты</a></li>
         </ul>
       </nav>
 
@@ -36,7 +36,7 @@
           <div class="icon-envelope">
             <a href="mailto:info@devstudio.com" class="contact-link">
               <svg width="16" height="12" class="svg-envelope">
-                <use href="./images/icons.svg#icon-envelope"></use>
+                <use href="./images/phone-env.svg#icon-envelope"></use>
               </svg>info@devstudio.com</a>
           </div>
         </li>
@@ -44,7 +44,7 @@
           <div class="icon-smartphone">
             <a href="tel:+380961111111" class="contact-link">
               <svg width="10" height="16" class="svg-smartphone">
-                <use href="./images/icons.svg#icon-smartphone"></use>
+                <use href="./images/phone-env.svg#icon-smartphone"></use>
               </svg>+38 096 111 11 11</a>
           </div>
         </li>
@@ -56,8 +56,12 @@
   <main>
     <section class="hero">
       <h1 class="hero-tittle">Эффективные решения для вашего бизнеса</h1>
-      <button type="button" class="button">Заказать услугу</button>
+      <button type="button" class="button" data-modal-open>Заказать услугу</button>
+
+
     </section>
+
+
 
     <section class="section-first">
       <div class="container">
@@ -116,13 +120,22 @@
         <h2 class="section-tittle">Чем мы занимаемся</h2>
         <ul class="feature-list">
           <li class="feature-list-item">
-            <img class="services-img" src="./images/box1.jpg" alt="Вид услуги" width="370" />
+            <img class="services-img" src="./images/jpg/box1.jpg" alt="Вид услуги" width="370" />
+            <div class="label">
+              <p>Десктопные приложения</p>
+            </div>
           </li>
           <li class="feature-list-item">
-            <img class="services-img" src="./images/box2.jpg" alt="Вид услуги" width="370" />
+            <img class="services-img" src="./images/jpg/box2.jpg" alt="Вид услуги" width="370" />
+            <div class="label">
+              <p>Мобильные приложения</p>
+            </div>
           </li>
           <li class="feature-list-item">
-            <img class="services-img" src="./images/box3.jpg" alt="Вид услуги" width="370" />
+            <img class="services-img" src="./images/jpg/box3.jpg" alt="Вид услуги" width="370" />
+            <div class="label">
+              <p>Дизайнерские решения</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -133,7 +146,7 @@
         <h2 class="section-tittle">Наша команда</h2>
         <ul class="feature-list">
           <li class="feature-list-employee">
-            <img class="employee-img" src="./images/emp1.jpg" alt="Работник Игорь" width="270" />
+            <img class="employee-img" src="./images/jpg/emp1.jpg" alt="Работник Игорь" width="270" />
             <div class="profession-employee">
               <h3 class="employee-name">Игорь Демьяненко</h3>
               <p class="employee-text">Product Designer</p>
@@ -170,7 +183,7 @@
             </div>
           </li>
           <li class="feature-list-employee">
-            <img class="employee-img" src="./images/emp2.jpg" alt="Работник Ольга" width="270" />
+            <img class="employee-img" src="./images/jpg/emp2.jpg" alt="Работник Ольга" width="270" />
             <div class="profession-employee">
               <h3 class="employee-name">Ольга Репина</h3>
               <p class="employee-text">Frontend Developer</p>
@@ -207,7 +220,7 @@
             </div>
           </li>
           <li class="feature-list-employee">
-            <img class="employee-img" src="./images/emp3.jpg" alt="Работник Николай" width="270" />
+            <img class="employee-img" src="./images/jpg/emp3.jpg" alt="Работник Николай" width="270" />
             <div class="profession-employee">
               <h3 class="employee-name">Николай Тарасов</h3>
               <p class="employee-text">Marketing</p>
@@ -244,7 +257,7 @@
             </div>
           </li>
           <li class="feature-list-employee">
-            <img class="employee-img" src="./images/emp4.jpg" alt="Работник Михаил" width="270" />
+            <img class="employee-img" src="./images/jpg/emp4.jpg" alt="Работник Михаил" width="270" />
             <div class="profession-employee">
               <h3 class="employee-name">Михаил Ермаков</h3>
               <p class="employee-text">UI Designer</p>
@@ -291,42 +304,42 @@
           <li class="feature-list-clients">
             <a href="" class="link-clients">
               <svg width="106" height="60" class="svg-client1">
-                <use href="./images/sprite.svg#icon-client1"></use>
+                <use href="./images/clients.svg#icon-client1"></use>
               </svg>
             </a>
           </li>
           <li class="feature-list-clients">
             <a href="" class="link-clients">
               <svg width="106" height="60" class="svg-client2">
-                <use href="./images/sprite.svg#icon-client2"></use>
+                <use href="./images/clients.svg#icon-client2"></use>
               </svg>
             </a>
           </li>
           <li class="feature-list-clients">
             <a href="" class="link-clients">
               <svg width="106" height="60" class="svg-client3">
-                <use href="./images/sprite.svg#icon-client3"></use>
+                <use href="./images/clients.svg#icon-client3"></use>
               </svg>
             </a>
           </li>
           <li class="feature-list-clients">
             <a href="" class="link-clients">
               <svg width="106" height="60" class="svg-client4">
-                <use href="./images/sprite.svg#icon-client4"></use>
+                <use href="./images/clients.svg#icon-client4"></use>
               </svg>
             </a>
           </li>
           <li class="feature-list-clients">
             <a href="" class="link-clients">
               <svg width="106" height="60" class="svg-client5">
-                <use href="./images/sprite.svg#icon-client5"></use>
+                <use href="./images/clients.svg#icon-client5"></use>
               </svg>
             </a>
           </li>
           <li class="feature-list-clients">
             <a href="" class="link-clients">
               <svg width="106" height="60" class="svg-client6">
-                <use href="./images/sprite.svg#icon-client6"></use>
+                <use href="./images/clients.svg#icon-client6"></use>
               </svg>
             </a>
           </li>
@@ -391,6 +404,19 @@
       </div>
     </div>
   </footer>
+
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="backdrop-button" data-modal-close>
+        <svg width="11" height="11" class="svg-close-button">
+          <use href="./images/close-button.svg#icon-close-button"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="./modal.js"></script>
+
 </body>
 
 </html>
