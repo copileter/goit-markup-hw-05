@@ -414,6 +414,10 @@ address {
   color: var(--accent-color);
 }
 
+.contact-link:focus {
+  fill: #2196f3;
+}
+
 .main-container {
   display: flex;
   align-items: center;
@@ -632,6 +636,8 @@ address {
 
   transition-property: background-color, transform, opacity;
   overflow: hidden;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--timing-function);
 }
 
 .link-wrap-element {
